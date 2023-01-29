@@ -1,5 +1,5 @@
 FROM node:18.11.0
-WORKDIR /apps/conversao-temperatura
+WORKDIR /apps/buke-news
 COPY package*.json ./
 RUN npm install
 COPY . .
